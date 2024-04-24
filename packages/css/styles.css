@@ -1487,6 +1487,37 @@ img {
 }
 
 
+
+
+
+
+
+
+
+
+
+  /* Media query for 768px screen width or less */
+@media screen and (max-width: 768px) {
+  /* Adjust padding and margin for smaller screens */
+  .services,
+  .portfolio,
+  .testimonial {
+    padding-top: 80px;
+    padding-bottom: 60px;
+  }
+
+  /* Ensure sections are displayed properly */
+  .services,
+  .portfolio,
+  .testimonial {
+    display: block;
+  }
+
+  /* Adjust other styles as needed */
+}
+
+
+
 }
 
 
